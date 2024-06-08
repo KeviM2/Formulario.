@@ -2,25 +2,6 @@
 El código define una aplicación JavaFX que muestra una ventana titulada "AllControls" con varios controles de interfaz gráfica organizados en una cuadrícula (GridPane). Incluye botones, casillas de verificación, hipervínculos, botones de alternancia, botones de opción, etiquetas, campos de texto, áreas de texto, barras de progreso, indicadores de progreso y deslizadores. La clase Botones extiende Application, y en el método start, se configura y muestra la interfaz gráfica cuando se inicia la aplicación.
 
 # Codigo.
-package botones;
-
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.Hyperlink;
-import javafx.scene.control.Label;
-import javafx.scene.control.PasswordField;
-import javafx.scene.control.ProgressBar;
-import javafx.scene.control.ProgressIndicator;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.Slider;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleButton;
-import javafx.scene.layout.GridPane;
-import javafx.stage.Stage;
-
 public class Botones extends Application {
 
     public static void main(String[] args) {
